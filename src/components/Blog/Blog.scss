@@ -1,0 +1,32 @@
+// .blog{
+//     top: 50%;
+//     left: 50%;
+//     position: relative;
+//     transform: translate(-50%,-50%);
+//     color: #fff;
+//     text-align: center;
+// }
+
+// .heaad{
+//     position: absolute;
+// }
+
+.hed{
+    text-align: center;
+    position: relative;
+    top: 300px;
+    /* left: -1%; */
+    font-size: 80px;
+}
+
+.blog{
+    background-color: #E3F2DD;
+    height: 100vh;
+}
+
+.pp{
+    position: relative;
+    left: 40%;
+    font-size: 25px;
+    top: 45%;
+}

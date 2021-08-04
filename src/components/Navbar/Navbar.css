@@ -1,0 +1,160 @@
+nav{
+    background: black;
+    /* margin-top: auto; */
+    position: fixed;
+    padding: 27px 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    color: grey;
+    z-index: 99;
+}
+
+.header-icon{
+    display: none;
+}
+
+.fas{
+    cursor: pointer;
+}
+
+.header-icon .fa-times{
+    transform: rotate(360deg);
+    transition: all 0.2s ease-in-out;
+    position: relative;
+    left: 40px;
+}
+.imagess{
+    height: 69px;
+    width: 200px;
+    position: fixed;
+    top: 9px;
+}
+
+.header-icon .fa-bars{
+    transform: rotate(180deg);
+    transition: all 0.2s ease-in-out;
+    position: relative;
+    left: 40px;
+}
+
+.logo{
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.logo font{
+    color: tomato;
+    position: absolute;
+    bottom: 19px;
+}
+
+.header-list{
+    list-style-type:none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-list li a{
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#fff;
+    font-weight: 300;
+    padding: 5px 10px;
+    margin-left: 20px;
+}
+
+.header-list li a:hover,
+.header-list li a.active{
+    background-color: #fff;
+    border-radius: 2px;
+    color: #000;
+    transition: all 0.5s ease-in-out;
+}
+
+.Youtube{
+    padding: 0 23px;
+}
+
+.testimonial a{
+    text-decoration: none;
+    color:#7e6f6f;
+    font-weight: 300;
+    padding: 5px 10px;
+    margin-left: 20px;
+}
+
+.testimonial a:hover,
+.testimonial a.active{
+    scroll-behavior: smooth;
+    background-color: #fff;
+    border-radius: 2px;
+    color: #000;
+    transition: all 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 980px) {
+    nav{
+        padding: 24px;
+        position: fixed;
+        width: 96%;
+    }
+    .logo font{
+        bottom: 16px;
+        position: absolute;
+        left: 15px;
+    }
+    .header-icon{
+        display: block;
+    }
+
+    .header-list{
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        background-color:rgba(0,0,0,1);
+        padding: 20px;
+        right: 0;
+        top: 60px;
+        align-items: flex-start;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .header-list li{
+        margin-bottom: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .testimonial{
+        margin-bottom: 20px;
+        width: 100%;
+        text-align: left;
+    }
+
+    .header-list li a{
+        /* width: 100px; */
+        display: flex;
+    }
+    .header-list.close{
+        right: -130%;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .imagess{
+        position: absolute;
+        left: 10px;
+        top:3px
+    }
+
+}
+
+/* @media screen and (max-width:680px) {
+    nav{
+        width: 70%;
+    }
+
+} */

@@ -1,0 +1,38 @@
+body{
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.container{
+    // /* background: linear-gradient(90deg,#a6a0b8 0,#c9b4c8 50%,#f3e1e5 99%); */
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    overflow-x:clip;
+    // overflow-y: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type:y mandatory ;
+    height: 100vh;
+
+    .sections{
+        width: 100%;
+        // overflow-x: hidden;
+        height: 150vh;
+        background-color:white;
+        position: relative;
+        top: 0px;
+        // scroll-snap-align: center;
+        scrollbar-width: none;
+        &::-webkit-scrollbar{
+            display: none;
+        
+        }
+        // > *{
+        //     // scroll-snap-align: start;
+        // }
+    }
+  
+
+  
+}

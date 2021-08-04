@@ -1,0 +1,79 @@
+.testimonial{
+  height: 85vh;
+  background-color: rgb(204, 197, 197);
+} 
+
+.content h1::after{
+  content: '';
+  display: block;
+  margin: 0 auto;
+  margin-top: 0.8rem;
+  width: 150px;
+  background:#ff9e44;
+  height: 3px;
+}
+
+.description{
+  font-style: "italic";
+  margin-top: 25px;
+}
+
+.desc{
+  color: black;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  text-align: justify ;
+}
+
+.span{
+  font-weight: 500;
+  color: green;
+}
+
+.testimonial .slick-arrow.slick-prev,
+.testimonial .slick-arrow.slick-next {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  border-radius: 5px;
+}
+.slick-prev::before,
+.slick-next::before {
+  display: none;
+}
+.slick-arrow.slick-next {
+  right: -70px;
+}
+.slick-arrow.slick-prev {
+  left: -70px;
+}
+.testimonial .slick-dots li button:before {
+  font-size: 15px;
+}
+.testimonial .slick-dots li {
+  top: 15px;
+}
+
+// @media (max-height:780px){
+//   .testimonial{
+//       height: 90vh;
+//   }
+// }
+@media (max-width:420px){
+  .testimonial{
+      height: 140vh;
+  }
+}
+@media (max-width:400px){
+  .testimonial{ 
+      height: 155vh;
+  }
+}
+@media (max-width:330px) {
+	.testimonial{
+    height:210vh ;
+	}}
