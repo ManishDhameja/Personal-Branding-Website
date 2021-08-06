@@ -27,17 +27,18 @@
 }
 .contact-me button{
     cursor: pointer;
-	border-radius: 8px;
-	width:150px;
-	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-	height:42px;
-	background-color: #FFFFFF;
-	border:2px solid rgb(167, 117, 117);
-	outline:none;
-	font-size:22px;
-	font-weight:bold;
-	position: relative;
-	bottom: 12px;
+    border-radius: 8px;
+    width: 150px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 42px;
+    background-color: #FFFFFF;
+    border: 2px solid rgb(167, 117, 117);
+    outline: none;
+    font-size: 22px;
+    font-weight: bold;
+    position: relative;
+    bottom: 12px;
+    color: #39393a;
 }
 
 .butn:hover{
@@ -45,7 +46,7 @@
     border: none;
     /* background: linear-gradient(to right,#f64f59,#c471ed,#e9b712);
 	 */
-	 background-image: linear-gradient(to right, #25e1c2, #40e495, #30dd8a, #2bb673);
+	 background:  hsla(103, 38%, 61%, 1);;
     transform: scale(1.05);
 	/* transition: all 0.4s ease-in; */
 }
@@ -54,12 +55,14 @@
 	.contact-me p{
 
 		font-size: 1.4rem;
+		text-align: center;
 	}
 }
 @media (max-width:330px) {
 	.contact-me p{
 
 		font-size: 1rem;
+		text-align: center;
 	}
 	.contact-me button{
 		position: relative;

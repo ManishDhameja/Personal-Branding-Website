@@ -1,6 +1,9 @@
 .testimonial{
-  height: 85vh;
-  background-color: rgb(204, 197, 197);
+  height: 93vh;
+  // background: url("../../assets/Path.png") center no-repeat;
+  background: url("../../assets/Rectangle.png") center no-repeat;
+  background-size: 56% 58%;
+  background-position-y: 180px;
 } 
 
 .content h1::after{
@@ -9,26 +12,30 @@
   margin: 0 auto;
   margin-top: 0.8rem;
   width: 150px;
-  background:#ff9e44;
+  background: #8bc175;
   height: 3px;
 }
-
+ 
 .description{
   font-style: "italic";
-  margin-top: 25px;
+  margin-top: 0;
+  color:#0a4a12;
+  font-size: 18px;
 }
 
 .desc{
-  color: black;
+  // font-size: 18px;
+  color: black; 
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-style: italic;
   font-weight: 400;
-  text-align: justify ;
+  // text-align: justify ;
+  width: 87%;
 }
 
 .span{
   font-weight: 500;
-  color: green;
+  color: #8bc175;
 }
 
 .testimonial .slick-arrow.slick-prev,
@@ -58,22 +65,109 @@
   top: 15px;
 }
 
-// @media (max-height:780px){
-//   .testimonial{
-//       height: 90vh;
-//   }
-// }
-@media (max-width:420px){
+.slick-dots{
+  bottom: -60px;
+} 
+
+@media (max-width:980px){
   .testimonial{
-      height: 140vh;
+      background-size: 56% 62%;
+  }
+  .desc{
+    font-size: 15px;
   }
 }
-@media (max-width:400px){
-  .testimonial{ 
-      height: 155vh;
+@media (max-width:750px){
+  .testimonial{
+      background-size: 56% 70%;
+  }
+  .desc{
+    font-size: 13px;
+  }
+  .description{
+    font-size: 16px;
   }
 }
-@media (max-width:330px) {
+
+@media (max-width:540px) {
+  .testimonial{
+    height: 105vh;
+    background-size: 75% 75%;
+  }
+  .desc{
+    font-size: 12px;
+    width: 90%;
+  }
+  .description{
+    margin-top: -6px;
+    font-size: 14px;
+  }
+  .slick-dots{
+    bottom: -47px;
+  }
+  .span{
+    font-size: 17px;
+  }
+}
+ 
+@media (max-width:440px){
+  .testimonial{
+      height: 115vh;
+      background-size: 80% 68%;
+  }
+  .desc{
+    font-size: 11px;
+    line-height: 26px;
+  }
+  .span{
+    font-size: 16px;
+  }
+  .description{
+    // margin-top: 11px;
+    font-size: 11px;
+  }
+  // .span{
+  //   // font-size: 19px;
+  // }
+  .slick-dots{
+    bottom: -81px;
+  }
+}
+
+@media (max-width:400px) {
 	.testimonial{
-    height:210vh ;
-	}}
+      background-size: 80% 69%;
+	}
+  .desc{
+    font-size: 10px;
+    line-height: 22px;
+  }
+  .description{
+    font-size: 9px;
+  }
+  span{
+    font-size: 15px;
+  }
+}
+
+@media (max-width:360px) {
+  .desc{
+    font-size: 10px;
+    line-height: 20px;
+  }
+  .description{
+    font-size: 8px;
+  }
+  span{
+    font-size: 15px;
+  }
+}
+
+@media (max-width:321px) {
+  .testimonial{
+    background-size: 80% 75%;
+  }
+  .desc{
+    font-size: 9px;
+  }
+}

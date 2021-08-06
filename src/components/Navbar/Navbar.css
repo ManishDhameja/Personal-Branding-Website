@@ -129,11 +129,11 @@ nav{
         text-align: center;
     }
 
-    .testimonial{
+    /* .testimonial{
         margin-bottom: 20px;
         width: 100%;
         text-align: left;
-    }
+    } */
 
     .header-list li a{
         /* width: 100px; */
@@ -146,8 +146,10 @@ nav{
 
     .imagess{
         position: absolute;
-        left: 10px;
-        top:3px
+        left: 22px;
+        top: 5px;
+        width: 160px;
+        height: 54px;
     }
 
 }

@@ -2,7 +2,7 @@ import "./Intro.scss";
 import { init } from "ityped";
 import { useHistory } from "react-router-dom";
 import { useEffect, useRef } from "react";
-import Image from '../../assets/home.png'
+import Image from '../../assets/ayushh.png'
 // import Profile from '../../assets/picture.jpg';
 // import Down from '../../assets/down.png'
 import AOS from 'aos'
@@ -37,14 +37,14 @@ export default function Intro() {
     <div className="intro" id="intro">
       <div className="right" >
         <div className="wrapper">
-          <div className="border" data-aos="fade-up">
-            <h2 data-aos="fade-right" data-aos-delay="1">Hi There, I'm</h2>
-            <h1 data-aos="fade-right" data-aos-delay="1">Ayush Ghurka</h1>
-            <h3 data-aos="fade-right" data-aos-delay="1">
+          <div className="border" >
+            <h2>Hi There, I'm</h2>
+            <h1>Ayush Ghurka</h1>
+            <h3>
               I am a <span ref={textRef}></span>
             </h3>
             {/* <div className="btn"> */}
-            <button onClick={() => history.push('/about')} data-aos="fade-right" data-aos-delay="1">About me</button>
+            <button onClick={() => history.push('/about')} >About me</button>
             <div className="bg"></div>
             <div className="bg-gradient"></div>
             {/* </div> */}
@@ -53,7 +53,7 @@ export default function Intro() {
             <img src={Down} alt="" />
           </a> */}
 
-          <div className="social-iconed" data-aos="fade-right">
+          <div className="social-iconed" >
             <a href="https://www.facebook.com/ghurkaayush/" alt="" target="_blank" rel="noreferrer">
               <i className="fab fa-facebook-f"></i>
             </a>
@@ -74,7 +74,7 @@ export default function Intro() {
 
       </div>
 
-      <div className="left" data-aos="fade-down" data-aos-duration="2500">
+      <div className="left">
         <div className="home__img">
           <img src={Image} alt="Ayush Ghurka" />
         </div>

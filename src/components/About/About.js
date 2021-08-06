@@ -37,7 +37,7 @@ const About = () => {
                             <p>Hello! I am Ayush Ghurka, a 2022 grad in Electronics and Instrumentation . 
                                 I am an amalgam of zeal and passion . With immense interest for mathematics . 
                                 I have experience teaching students in India and around the world. Along with being a Q&amp;A Expert on Chegg ,
-                                I manage Youtube channel with minimum of 60k plus views and Instagram reach of 100k . 
+                                I manage Youtube channels with a minimum reach of 700k and Instagram reach of 100k plus views . 
                                 I am on a mission to assist students in their academic well-being and add sparkle to the monotonous study
                                 techniques. </p>
                         </div>

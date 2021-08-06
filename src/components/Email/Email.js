@@ -60,22 +60,22 @@ const Email = () => {
 
                                 {/* {Success Message Alert} */}
                                 {successMessage ? <Alert severity="success">{successMessage}</Alert> : ""}
-                    <span className="text-uppercase" data-aos="fade-up">Get Notified Of New Courses</span>
+                    <span className="text-uppercase">Get Notified Of New Courses</span>
 
                     <div className="rows">
-                        <div className="col-md-6 mx-auto">
+                        <div className="mx-auto">
                             <div id="mc_embed_signup">
                                 <form onSubmit={handleSubmit}>
 
                                     <div className="input-group  mx-auto">
-                                        <div className="input-containers" data-aos="fade-right">
+                                        <div className="input-containers">
                                             <input type="email" className="inputed" placeholder="Email" value={email} name="email" 
                                         onChange={(e) => setEmail(e.target.value)} />
                                             {/* <label for=""></label> */}
                                             {/* <span>Email</span> */}
 
                                         </div>
-                                        <span className="input-group-btn" data-aos="fade-left">
+                                        <span className="input-group-btn">
                                             <input type="submit" value="Go!" name="subscribe" className="batton" />
 
                                         </span>
@@ -83,7 +83,7 @@ const Email = () => {
 
                                 </form>
                             </div>
-                            <div className="texthead" data-aos="fade-down">
+                            <div className="textheads">
                                 Your email will never be shared
                             </div>
                         </div>

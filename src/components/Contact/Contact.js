@@ -201,7 +201,7 @@ const Contact = () => {
                         <div className="contact-form">
                             <span className="circle one"></span>
                             <span className="circle two"></span>
-                            <form onSubmit={handleSubmit} autocomplete="off">
+                            <form className="forms" onSubmit={handleSubmit} autocomplete="off">
                                 <h3 className="title">Message me</h3>
                                 {/* {Error message alert} */}
                                 {errorMessage ? <Alert severity="error">{errorMessage

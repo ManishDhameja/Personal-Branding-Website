@@ -1,10 +1,10 @@
 .emails{
-    height: 40vh;
-    background-color: #A0C4FF;
+    height: 38vh;
+    background-color: #e3f2dd;
 }
 
 .pt-5 {
-    padding-top: 3rem!important;
+    padding-top: 2rem!important;
 }
 .px-3 {
     padding-right: 1rem!important;
@@ -14,9 +14,9 @@
     padding-bottom: .5rem!important;
 }
 .rows {
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
@@ -38,30 +38,32 @@
 
 .text-uppercase {
     text-transform: uppercase!important;
+    display: flex;
     font-size: 30px;
     font-weight: 600;
-    position: relative;
-    bottom: 7px;
+    align-items: center;
+    justify-content: center;
     font-family: inherit;
-    color: white;
-    /* margin-bottom: 26px; */
+    color: #39393a;
+    margin-bottom: 20px;
 }
 .mx-auto {
     margin-right: auto!important;
     margin-left: auto!important;
 }
-@media (min-width: 768px){
+/* @media (min-width: 768px){
 .col-md-6 {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%;
 }
-}
+} */
 
 .input-group {
-    position: relative;
-    display: -ms-flexbox;
+    /* position: relative; */
     display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
     width: 100%;
 }
 
@@ -77,17 +79,23 @@
     align-items: center;
 }
 
-.input-containers {
-    position: relative;
-    left: 13%;
-    top: -20px;
-    /* margin: 1rem 0; */
+.input-containers{
+    /* width: 78%; */
+    display: block;
+    padding: 1.5rem 0rem;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* position: relative; */
+    /* left: 13%; */
+    /* top: -20px; */
+    /* margin: 0 0px; */
+    /* margin: -16rem 0;*/
   }
   
   .inputed {
-    width: 185%;
+    width: 30vw;
     outline: none;
-    border: 2px solid #333;
+    border: 2px solid rgb(66, 66, 66);
     border-radius: 10px;
     background: none;
     padding: 0.6rem 1.2rem;
@@ -100,7 +108,7 @@
 
   .batton{
     padding: 0.6rem 1.3rem;
-    background-color:black;
+    background-color: black;
     border: 2px solid #fafafa;
     font-size: 0.95rem;
     color: #fafafa;
@@ -110,9 +118,9 @@
     cursor: pointer;
     transition: 0.3s;
     margin-left: 30px;
-    position: relative;
-    left:325%;
-    bottom: 20px;
+    /* position: relative; */
+    /* left: 325%; */
+    /* bottom: 20px;*/
 }
 
 .batton:hover{
@@ -120,41 +128,42 @@
     color: #fff;
   }
 
-  .texthead{
+  .textheads{
+    display: flex;
     font-size: 25px;
-    color: white;
-    position: relative;
-    bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    color: #3d3d3d;
+    margin-top: 15px;
 }
+
+
 
 @media (max-width:680px) {
-    .texthead{
+    .textheads{
         font-size: 20px;
     }
-    .input-containers{
-        left: 0%;
-    }
     .inputed{
-        width: 100%;
-    }
-    .batton{
-        position: relative;
-        left: 28%;
+        width: 90%;
+    } 
+     .batton{
+        /* position: relative;
+        left: 28%; */
         font-size: 15px;
         padding: 11px 10px;
-    }
-    .emails{
+    } 
+    /* .emails{
         height: 50vh;
-    }
+    } */
     .text-uppercase{
-        font-size: 25px;
-        bottom: 3px;
+        font-size: 20px;
+        /* bottom: 3px; */
     }
 }
 
-@media (max-width:330px) {
+/* @media (max-width:330px) {
 	.batton{
 
 		position: relative;
         left: 16%;
-	}}
+	}} */

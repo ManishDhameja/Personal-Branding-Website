@@ -1,5 +1,5 @@
 .footers{
-    height: 30vh;
+    height: 20vh;
     background-color: white;
 }
 
@@ -9,7 +9,7 @@
     background-color: #fff;
     position: relative;
     color: #bac1c7;
-    padding: 0px 0 10px;
+    padding: 0px 0 0px;
 }
 
 .contain{
@@ -26,37 +26,39 @@
 }
 
 .foots{
-    position: relative;
-    left: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45px;
 }
 
-@media (max-width:880px) {
-    .foots{
-        position: absolute;
-        left: 355px;
-    }
-}
-@media (max-width:580px) {
-    .foots{
-        position: absolute;
-        left: 215px;
-    }
-}
-@media (max-width:420px) {
-    .foots{
-        position: absolute;
-        left: 117px;
-    }
-}
-@media (max-width:330px) {
-    .foots{
-        position: absolute;
-        left: 88px;
-    }
-}
-@media (min-height:1022px) {
-    .foots{
-        position: absolute;
-        left: 312px;
-    }
-}
+// @media (max-width:880px) {
+//     .foots{
+//         position: absolute;
+//         left: 355px;
+//     }
+// }
+// @media (max-width:580px) {
+//     .foots{
+//         position: absolute;
+//         left: 215px;
+//     }
+// }
+// @media (max-width:420px) {
+//     .foots{
+//         position: absolute;
+//         left: 117px;
+//     }
+// }
+// @media (max-width:330px) {
+//     .foots{
+//         position: absolute;
+//         left: 88px;
+//     }
+// }
+// @media (min-height:1022px) {
+//     .foots{
+//         position: absolute;
+//         left: 312px;
+//     }
+// }

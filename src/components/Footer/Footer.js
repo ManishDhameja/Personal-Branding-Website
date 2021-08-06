@@ -15,7 +15,7 @@ const Footer = () => {
 
 
 
-                    <div className="row">
+                    <div className="roww">
                         <div className="col-xs-12 col-sm-4 col-md-4 footer-column">
                             <p className="foots">
                                 ©

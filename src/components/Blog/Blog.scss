@@ -12,9 +12,11 @@
 // }
 
 .hed{
+    display: flex;
+    justify-content: center;
     text-align: center;
     position: relative;
-    top: 300px;
+    top: 300px; 
     /* left: -1%; */
     font-size: 80px;
 }
@@ -26,7 +28,37 @@
 
 .pp{
     position: relative;
-    left: 40%;
+    // left: 40%;
     font-size: 25px;
     top: 45%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+@media (max-width:780px) {
+    .hed{
+        font-size: 40px;
+    }
+    .pp{
+        font-size: 15px;
+        display: flex;
+        // justify-content: center;
+        // text-align: center;
+    }
+
+}
+@media (max-width:350px) {
+    .hed{
+        font-size: 35px;
+        top: 260px;
+    }
+    .pp{
+        font-size: 15px;
+        // top: 250px;
+        // display: flex;
+        // justify-content: center;
+        // text-align: center;
+    }
+
 }

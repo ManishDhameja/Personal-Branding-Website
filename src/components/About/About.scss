@@ -37,7 +37,7 @@ body{
 }
 .card{
     position: absolute;
-    top: 20px;
+    top: 50px;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 240px;
@@ -137,14 +137,16 @@ body{
  }
 
  .about .about-content .right{
-     width: 55%;
+     width: 59%;
  }
 
  .para p{
     font-size: 20px;
     font-weight: 500;
     line-height: 35px;
-    margin-top: -16px;
+    margin-top: 30px;
+    text-align: justify;
+    color: #39393a;
  }
 
 //  .details{
@@ -180,10 +182,20 @@ body{
      
  }
  @media screen and (max-width:680px) {
+     .about{
+         height: 130vh;
+     }
      .about .about-content{
          margin-top: 400px;
      }
+    
      
+ }
+ @media screen and (max-width:380px) {
+     .about{
+         height: 160vh;
+     }
+      
  }
 
  .cwm-social-icons{
@@ -200,18 +212,26 @@ body{
  }
 
 
- @media (max-width:420px) {
-     .about{
-         height: 195vh;
-     }
- }
- @media (max-width:330px) {
-     .about{
-         height: 250vh;
-     }
- }
+//  @media (max-width:620px) {
+//      .about{
+//          height: 150vh;
+//      }
+//      .card{
+//         top: -20px;
+//      }
+     
+//  }
+//  @media (max-width:330px) {
+//      .about{
+//          height: 250vh;
+//      }
+//  }
 
-
+@media (max-width:780px) {
+    .about .about-content .right{
+        width: 85%;
+    }
+}
 
  
      

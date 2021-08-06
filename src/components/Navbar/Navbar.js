@@ -3,7 +3,7 @@ import "./Navbar.css";
 // import {gsap} from 'gsap'
 import { Headerlist } from "./HeaderList";
 import { NavLink } from "react-router-dom";
-import Logo from '../../assets/Log.png'
+import Logo from '../../assets/ayushlogo.png'
 // import {
 //   FaYoutubeSquare,
 // } from "react-icons/fa";
