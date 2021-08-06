@@ -58,28 +58,28 @@ const Testimonial = () => {
             designation= " Rose Hill Middle School Redmond, Washington"/>
             <Card 
               img={Manish}
-              description="Ayush sir has a great methodology of teaching, his way of explaining the concepts from scratch to an advance level is what makes his videos loved by everyone. One could easily pass with flying colours by Only completing the playlist uploaded by Sir. Thankyou so much for all your efforts and I would recommend everyone who is stuck in the concepts of mathematics to visit his channel once "
+              description="He is a phenomenal teacher, and appears to care deeply about his students. He teaches with great clarity and turns a course that could be boring into an entertaining one. I didn't even fall asleep once while studying. His determination , passion &amp; dedication towards his work is very inspiring."
               name = "Manish Dhameja"
+              designation= " EI Undergrad (SGSITS)"/>
+            <Card 
+              img={prag}
+              description="Ayush Sir's mathematics videos have proven to be a tremendous help to me. There are many tough topics in the course but he teaches them in a way that is easier to grasp and the concepts become clearer. He works so hard on providing the videos and is always ready to lend a helping hand to clear personal doubts."
+              name = "Praggati Ghosh"
               designation= " EI Undergrad (SGSITS)"/>
           <Card 
             img={Shaily}
             description="Ayush sir has a great methodology of teaching, his way of explaining the concepts from scratch to an advance level is what makes his videos loved by everyone. One could easily pass with flying colours by Only completing the course uploaded by Sir. Thankyou so much for all your efforts and I would recommend everyone who is stuck in the concepts of mathematics to visit his channel once "
             name = "Shaily Bhaiya"
             designation= " CS Undergrad (SGSITS)"/>
-          <Card 
-            img={prag}
-            description="Ayush Sir's mathematics videos have proven to be a tremendous help to me. There are many tough topics in the course but he teaches them in a way that is easier to grasp and the concepts become clearer. He works so hard on providing the videos and is always ready to lend a helping hand to clear personal doubts."
-            name = "Praggati Ghosh"
-            designation= " EI Undergrad (SGSITS)"/>
+          <Card img={Parwani}
+            description="Ayush Sir is highly encouraging and supportive. He solves complex problems in simple and understandable ways. He guides the students in the best possible way and I love to learn from his notes."
+            name = "Ayush Parwani"
+            designation= "EC Undergrad (SGSITS)" />
           <Card 
             img={Godani}
             description="He is very helpful as a teacher and try to be available personally for doubts. His Courses are also very helpful for mathematics. I strongly recommend everyone who are finding difficulties in mathematics to learn from him and his videos."
             name = "Mohan Godani"
             designation= "EI Undergrad (SGSITS)"/>
-          <Card img={Parwani}
-            description="Ayush Sir is highly encouraging and supportive. He solves complex problems in simple and understandable ways. He guides the students in the best possible way and I love to learn from his notes."
-            name = "Ayush Parwani"
-            designation= "EC Undergrad (SGSITS)" />
           <Card img={Avi}
             description="If  you want to learn maths with fun then I strongly recommend ayush ghurka sir. His method of teaching to students is easier than any other and he is so friendly that there is no fear to ask any questions in front of all class and always available for last minute doubts.
             Definitely best teacher for maths and any other tooo..........🤗"

@@ -24,14 +24,14 @@
         margin-left: auto;
     }
 
-    .mx-4 {
-        margin-left: .5rem!important;
-    }
+    // .mx-4 {
+    //     margin-left: 3rem!important;
+    // }
     .mb-4, .my-4 {
         margin-bottom: 5rem!important;
     }
     .mr-4, .mx-4 {
-        margin-right: .5rem!important;
+        margin-right: 3rem!important;
     }
     .mt-4, .my-4 {
         margin-top: 3.5rem!important;
@@ -61,13 +61,13 @@
     // background: url("../../assets/Rectangle.png") center no-repeat;
     // box-shadow: 0 1rem 1.5rem black;
 }
-.car{
-    // background: url("../../assets/Rectangle.png") center no-repeat;
-    box-shadow: 0 0.5px 1rem black;
-    // background-size: 150% 150%;
-    border: 2px solid #a5f187;
-    border-radius: 10px;
-}
+// .car{
+//     // background: url("../../assets/Rectangle.png") center no-repeat;
+//     box-shadow: 0 0.5px 1rem black;
+//     // background-size: 150% 150%;
+//     border: 2px solid #a5f187;
+//     border-radius: 10px;
+// }
 
 .car:hover{
     transform: translateY(-0.9%);
@@ -133,7 +133,7 @@ a {
 @media (max-width:780px) {
     .row{
         grid-template-columns: 1fr 1fr;
-        padding-left: 35px;
+        // padding-left: 15px;
     }
     .btns{
         margin: 5px;

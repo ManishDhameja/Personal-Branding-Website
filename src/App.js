@@ -10,6 +10,7 @@ import Contact from './components/Contact/Contact';
 // import Testimonials from './components/Testimonials/Testimonials';
 // import Portfolio from './components/Portfolio/Portfolio';
 import EM3 from './components/Courses/SubCourses/EM-3';
+import QT from './components/Courses/SubCourses/QT';
 import EM1 from './components/Courses/SubCourses/EM-1';
 import EM2 from './components/Courses/SubCourses/EM-2';
 import EM4 from './components/Courses/SubCourses/EM-4';
@@ -70,6 +71,9 @@ const App = () => {
             {/* <BasicMaths /> */}
           </Route> 
           <Route path='/shorttricks' component={ShortTricks} exact>
+            {/* <ShortTricks /> */}
+          </Route> 
+          <Route path='/aptitude' component={QT} exact>
             {/* <ShortTricks /> */}
           </Route> 
           <Redirect to ="/" />

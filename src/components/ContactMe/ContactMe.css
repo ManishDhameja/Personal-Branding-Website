@@ -1,6 +1,6 @@
 .contactme{
     height: 30vh;
-    background-color: black;
+    background-color: #e3f2dd;
 }
 
 .contact-me{
@@ -19,11 +19,11 @@
     position: relative;
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     bottom: 50px;
-	color:#FFFFFF;
+	color:#8bc175;
 	font-size: 30px;
 	/* font-family: calibri; */
 	font-weight:bold;
-	border-bottom:2px solid #ffffff;
+	/* border-bottom:2px solid #ffffff; */
 }
 .contact-me button{
     cursor: pointer;
@@ -31,13 +31,13 @@
     width: 150px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     height: 42px;
-    background-color: #FFFFFF;
-    border: 2px solid rgb(167, 117, 117);
+    background-color: #8bc175;
+    /* border: 2px solid #8bc175; */
     outline: none;
     font-size: 22px;
     font-weight: bold;
     position: relative;
-    bottom: 12px;
+    bottom: 27px;
     color: #39393a;
 }
 

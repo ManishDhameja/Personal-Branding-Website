@@ -2,8 +2,8 @@ import React,{Component} from 'react';
 // import { useEffect } from 'react';
 import './Portfolio.scss';
 import Aos from 'aos';
-import svg from '../../assets/1.png'
-import svg2 from '../../assets/2.png'
+import svg from '../../assets/1 .png'
+import svg2 from '../../assets/2 .png'
 import svg3 from '../../assets/3.png'
 import svg4 from '../../assets/4.png'
 

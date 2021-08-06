@@ -25,8 +25,10 @@ const BasicMaths = () => {
                     <span>S</span>
                     <span>I</span>
                     <span>C</span>
-                    <span>-</span>
                     <span>M</span>
+                    <span>A</span>
+                    <span>T</span>
+                    <span>H</span>
                     <span>S</span>
                 </h1>
             <div className="grid">

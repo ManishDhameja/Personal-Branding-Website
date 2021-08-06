@@ -2,7 +2,7 @@ import "./Intro.scss";
 import { init } from "ityped";
 import { useHistory } from "react-router-dom";
 import { useEffect, useRef } from "react";
-import Image from '../../assets/ayushh.png'
+import Image from '../../assets/introduction.png'
 // import Profile from '../../assets/picture.jpg';
 // import Down from '../../assets/down.png'
 import AOS from 'aos'
