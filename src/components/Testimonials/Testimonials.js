@@ -3,14 +3,14 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./Testimonials.scss";
 // import Path from '../../assets/Path.png'
-import Parwani from '../../assets/parwami.jpg'
-import Hirani from '../../assets/hirani.jpg'
+import Parwani from '../../assets/Ayush.jpg'
+import Hirani from '../../assets/vishita.jpg'
 import Godani from '../../assets/Mohann.jpeg'
 import Shaily from '../../assets/Shaily.jpg'
-import Avi from '../../assets/avi.jpeg'
+import Avi from '../../assets/avii.jpeg'
 // import Shivangi from '../../assets/shivangi.jpg'
 import Aish from '../../assets/aish.jpg'
-import usa from '../../assets/usa.jpeg'
+import usa from '../../assets/usaa.jpeg'
 import Manish from '../../assets/Manish.jpg'
 import prag from '../../assets/prag.jpg'
 import { Avatar } from "@material-ui/core";
@@ -47,7 +47,7 @@ const Testimonial = () => {
       className="testimonial" id="testimonials"
       style={{ display: "flex", justifyContent: "center" }}
     >
-      <div className="content" style={{ width: "50%", textAlign: "center" }} data-aos="fade-up">
+      <div className="content" style={{ width: "50%", textAlign: "center" }}>
         <h1 style={{ marginTop:48, marginBottom: 35, marginLeft: -15, marginRight: -15 }}>TESTIMONIALS</h1>
 
         <Slider prevArrow={<PreviousBtn />} nextArrow={<NextBtn />} dots >
@@ -64,7 +64,7 @@ const Testimonial = () => {
             <Card 
               img={prag}
               description="Ayush Sir's mathematics videos have proven to be a tremendous help to me. There are many tough topics in the course but he teaches them in a way that is easier to grasp and the concepts become clearer. He works so hard on providing the videos and is always ready to lend a helping hand to clear personal doubts."
-              name = "Praggati Ghosh"
+              name = "Pragati Ghosh"
               designation= " EI Undergrad (SGSITS)"/>
           <Card 
             img={Shaily}

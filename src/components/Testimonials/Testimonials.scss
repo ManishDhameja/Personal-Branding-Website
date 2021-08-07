@@ -112,8 +112,8 @@
  
 @media (max-width:440px){
   .testimonial{
-      height: 115vh;
-      background-size: 80% 68%;
+      height: 105vh;
+      background-size: 80% 75%;
   }
   .desc{
     font-size: 11px;
@@ -129,14 +129,14 @@
   // .span{
   //   // font-size: 19px;
   // }
-  .slick-dots{
-    bottom: -81px;
+  .slick-dots li button{
+    display: none;
   }
 }
 
 @media (max-width:400px) {
 	.testimonial{
-      background-size: 80% 69%;
+      background-size: 80% 76%;
 	}
   .desc{
     font-size: 10px;
@@ -165,9 +165,16 @@
 
 @media (max-width:321px) {
   .testimonial{
-    background-size: 80% 75%;
+    height: 120vh;
+    background-size: 80% 78%;
   }
   .desc{
     font-size: 9px;
+  }
+}
+
+@media (min-height:811px) {
+  .desc{
+    font-size: 13px;
   }
 }

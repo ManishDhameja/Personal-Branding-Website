@@ -52,7 +52,7 @@ const Email = () => {
     return (
         <div className="emails">
             <div className="rows px-3 pt-5 pb-2">
-                <div className="col pt-2 text-center" data-aos="fade-up">
+                <div className="col pt-2 text-center">
 
                                 {/* {Error message alert} */}
                                 {errorMessage ? <Alert severity="error">{errorMessage

@@ -10,7 +10,7 @@ import 'aos/dist/aos.css';
 AOS.init({
   once: true,
 mirror: false,
-duration:2000,
+duration:1500,
 offset:150
 });
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import './ContactMe.css'
-// import { Redirect } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 AOS.init({
@@ -13,9 +13,11 @@ AOS.init({
 const ContactMe = () => {
     return (
         <div className="contactme">
-            <div className="contact-me" data-aos="fade-up">
+            <div className="contact-me">
                 <p>Feel free to contact me if you have any questions or concerns.</p>
-                <button className="butn" onClick={()=>window.open("/contact")}>CONTACT</button>
+                <Link to={'/contact'}>
+                    <button className="butn">CONTACT</button>
+                </Link>
             </div>
         </div>
     )
