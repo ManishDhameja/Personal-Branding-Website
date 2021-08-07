@@ -1,6 +1,6 @@
 import React from 'react';
 import './SubCourseOne.css'
-import Lecture from '../../../assets/Lect1.jpg'
+import Lecture from '../../../assets/Lect.jpg'
 import pde from '../../../assets/pde.jpg'
 import fourier from '../../../assets/FOURIER.jpg'
 import FD from '../../../assets/Finite-Difference.jpg'

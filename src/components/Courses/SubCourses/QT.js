@@ -31,7 +31,7 @@ const QT = () => {
                         <div className="card-content">
                             <h1 className="card-header">Time &amp; Work</h1>
                             <p className="card-text">
-                            Here I have discussed I have discussed why we have this topic time and work in every competitive exams, placement aptitude test and I have also discussed its real-world application, How to solve its questions and its short tricks. 
+                            Here I have discussed the real-world use of the topic time and work. Also covered all of its subtopics like Work &amp; Wages, Formula Based questions etc. with examples, problems and handwritten notes.
                             </p>
                             <button className="card-btn" onClick={() => window.open("https://www.youtube.com/playlist?list=PL6_Q82ANVQs1XEcQPiucSYc7Pmxf4mA5q", "_blank")}>Learn <span>&rarr;</span ></button>
                             <button className="card-btn" onClick={() => window.open("https://drive.google.com/drive/folders/1Sd4SwTwSRq1fplGn4l9LILJSOTkur3HP?usp=sharing", "_blank")}>Resources <span>&rarr;</span></button>

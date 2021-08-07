@@ -102,8 +102,8 @@ const BasicMaths = () => {
                             <p className="card-text">
                             Practice Problems of Differentiation, Differentiation Most Important Questions. All Repeated Questions in Exam, Questions Based on  Quotient Rule, Product Rule, Chain Rule, etc.
                             </p>
-                            <button className="card-btn" onClick={()=>window.open("https://www.youtube.com/playlist?list=PL6_Q82ANVQs1XEcQPiucSYc7Pmxf4mA5q", "_blank")}>Learn <span>&rarr;</span></button>
-                            <button className="card-btn" onClick={()=>window.open("https://drive.google.com/drive/folders/1Sd4SwTwSRq1fplGn4l9LILJSOTkur3HP?usp=sharing", "_blank")}>Resources <span>&rarr;</span></button>
+                            <button className="card-btn" onClick={()=>window.open("https://www.youtube.com/watch?v=-8eyerY4SHg&list=PL6_Q82ANVQs3ipNH5gpFJjO6l3nZeSnoE&index=5", "_blank")}>Learn <span>&rarr;</span></button>
+                            {/* <button className="card-btn" onClick={()=>window.open("https://drive.google.com/drive/folders/1Sd4SwTwSRq1fplGn4l9LILJSOTkur3HP?usp=sharing", "_blank")}>Resources <span>&rarr;</span></button> */}
                         </div>
                     </div>
                 </div>
