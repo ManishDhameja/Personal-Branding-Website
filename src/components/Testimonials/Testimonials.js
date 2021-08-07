@@ -20,7 +20,7 @@ import 'aos/dist/aos.css';
 AOS.init({
     once: true, 
   mirror: false,
-  duration:1000,
+  duration:800,
   offset:150
 })
 
@@ -47,7 +47,7 @@ const Testimonial = () => {
       className="testimonial" id="testimonials"
       style={{ display: "flex", justifyContent: "center" }}
     >
-      <div className="content" style={{ width: "50%", textAlign: "center" }}>
+      <div className="content" style={{ width: "50%", textAlign: "center" }} data-aos="fade-up">
         <h1 style={{ marginTop:48, marginBottom: 35, marginLeft: -15, marginRight: -15 }}>TESTIMONIALS</h1>
 
         <Slider prevArrow={<PreviousBtn />} nextArrow={<NextBtn />} dots >

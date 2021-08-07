@@ -36,8 +36,8 @@ export default function Intro() {
   return (
     <div className="intro" id="intro">
       <div className="right" >
-        <div className="wrapper">
-          <div className="border" >
+        <div className="wrapper" data-aos="fade-right">
+          <div className="border">
             <h2>Hi There, I'm</h2>
             <h1>Ayush Ghurka</h1>
             <h3>
@@ -74,7 +74,7 @@ export default function Intro() {
 
       </div>
 
-      <div className="left">
+      <div className="left" data-aos="fade-left">
         <div className="home__img">
           <img src={Image} alt="Ayush Ghurka" />
         </div>

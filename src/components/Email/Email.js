@@ -8,7 +8,7 @@ import 'aos/dist/aos.css';
 AOS.init({
     once: true,
   mirror: false,
-  duration:1500,
+  duration:800,
   offset:150
 })
 
@@ -52,7 +52,7 @@ const Email = () => {
     return (
         <div className="emails">
             <div className="rows px-3 pt-5 pb-2">
-                <div className="col pt-2 text-center">
+                <div className="col pt-2 text-center" data-aos="fade-up">
 
                                 {/* {Error message alert} */}
                                 {errorMessage ? <Alert severity="error">{errorMessage

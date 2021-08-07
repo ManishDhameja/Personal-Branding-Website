@@ -13,7 +13,7 @@ AOS.init({
 const ContactMe = () => {
     return (
         <div className="contactme">
-            <div className="contact-me">
+            <div className="contact-me" data-aos="fade-up">
                 <p>Feel free to contact me if you have any questions or concerns.</p>
                 <button className="butn" onClick={()=>window.open("/contact")}>CONTACT</button>
             </div>
