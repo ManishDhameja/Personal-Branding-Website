@@ -1,6 +1,7 @@
 {
   "name": "ag",
   "version": "0.1.0",
+  "homepage":"https://ayushghurka.com/",
   "private": true,
   "dependencies": {
     "@hookform/resolvers": "^2.6.1",

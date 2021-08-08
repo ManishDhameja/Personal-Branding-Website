@@ -1,6 +1,6 @@
 import './App.scss';
 // import Navbar from './components/Navbar/Navbar';
-import {BrowserRouter as Router, Route,Switch, Redirect} from 'react-router-dom';
+import { Route,Switch, Redirect} from 'react-router-dom';
 // import Intro from './components/Intro/Intro';
 import Home from './components/Home/Home';
 import About from './components/About/About';
@@ -20,6 +20,7 @@ import BasicMaths from './components/Courses/SubCourses/BasicMaths';
 import ShortTricks from './components/Courses/SubCourses/ShortTrick';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
+import { HashRouter } from 'react-router-dom';
 // ..
 
 const App = () => {
@@ -30,7 +31,7 @@ const App = () => {
   return (
     <div className="app">
       {/* <Home/> */}
-      <Router>
+      <HashRouter>
          <Switch>
           <Route path='/' component={Home} exact>
             {/* <Home /> */}
@@ -78,7 +79,7 @@ const App = () => {
           </Route> 
           <Redirect to ="/" />
         </Switch> 
-      </Router>
+      </HashRouter>
     </div>
 
     

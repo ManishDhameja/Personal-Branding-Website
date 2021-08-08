@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../Navbar/Navbar'
+import {Link} from 'react-router-dom'
 import './Courses.scss'
 // import { Link } from 'react-router-dom' 
 import Icon1 from '../../assets/Group 257.png'
@@ -40,9 +41,9 @@ const Courses = () => {
             <div className="containers-fluid">
                 <div className="row my-4 mx-4">
                     <div className="col-md-6 col-lg-4 text-center car">
-                        <a href="/EngineeringMathematics-1">
+                        <Link to={"/EngineeringMathematics-1"}>
                             <img style={{width:"120%"}} src={Icon1} alt=""/>
-                        </a>
+                        </Link>
                         {/* <h2>E</h2> */}
                         {/* <p>Python Practice Programs With Logic &amp; Explanation In Hindi</p> */}
                         {/* <p><a href="/courses"> */}
@@ -54,9 +55,9 @@ const Courses = () => {
                         
                     </div>
                     <div className="col-md-6 col-lg-4 text-center car" >
-                    <a href="/EngineeringMathematics-2">
+                    <Link to={"/EngineeringMathematics-2"}>
                             <img style={{width:"120%"}} src={m2} alt=""/>
-                        </a>
+                        </Link>
                         {/* <h2>Python Practice Programs With Logic &amp;</h2> */}
                         {/* <p>Python Practice Programs With Logic &amp; Explanation In Hindi</p> */}
                         {/* <p><a href="/videos/python-practice-programs-in-hindi-1"> */}
@@ -68,9 +69,9 @@ const Courses = () => {
                         {/* </p> */}
                     </div>
                     <div className="col-md-6 col-lg-4 text-center car">
-                    <a href="/EngineeringMathematics-3">
+                    <Link to = {"/EngineeringMathematics-3"}>
                             <img style={{width:"120%"}} src={m3} alt=""/>
-                        </a>
+                        </Link>
                         {/* <h2>Python Practice Programs With Logic &amp;</h2> */}
                         {/* <p>Python Practice Programs With Logic &amp; Explanation In Hindi</p> */}
                         {/* <p><a href="/videos/python-practice-programs-in-hindi-1"> */}
@@ -82,9 +83,9 @@ const Courses = () => {
                         {/* </p> */}
                     </div>
                     <div className="col-md-6 col-lg-4 text-center car">
-                    <a href="/EngineeringMathematics-4">
+                    <Link to={"/EngineeringMathematics-4"}>
                             <img style={{width:"120%"}} src={m4} alt=""/>
-                        </a>
+                        </Link>
                         {/* <h2>Python Practice Programs With Logic &amp;</h2> */}
                         {/* <p>Python Practice Programs With Logic &amp; Explanation In Hindi</p> */}
                         {/* <p><a href="/videos/python-practice-programs-in-hindi-1"> */}
@@ -97,9 +98,9 @@ const Courses = () => {
                         {/* </p> */}
                     </div>
                     <div className="col-md-6 col-lg-4 text-center car" >
-                    <a href="/class-9">
+                    <Link to={"/class-9"}>
                             <img style={{width:"120%"}} src={c9} alt=""/>
-                        </a>
+                        </Link>
                         {/* <h2>Python Practice Programs With Logic &amp;</h2> */}
                         {/* <p>Python Practice Programs With Logic &amp; Explanation In Hindi</p> */}
                         {/* <p><a href="/videos/python-practice-programs-in-hindi-1"> */}
@@ -112,9 +113,9 @@ const Courses = () => {
                         {/* </p> */}
                     </div>
                     <div className="col-md-6 col-lg-4 text-center car">
-                    <a href="/class-10">
+                    <Link to={"/class-10"}>
                             <img style={{width:"120%"}} src={c10} alt=""/>
-                        </a>
+                        </Link>
                         {/* <h2>Python Practice Programs With Logic &amp;</h2> */}
                         {/* <p>Python Practice Programs With Logic &amp; Explanation In Hindi</p> */}
                         {/* <p><a href="/videos/python-practice-programs-in-hindi-1"> */}
@@ -126,9 +127,9 @@ const Courses = () => {
                         {/* </p> */}
                     </div>
                     <div className="col-md-6 col-lg-4 text-center car" >
-                    <a href="/basicmathematics">
+                    <Link to={"/basicmathematics"}>
                             <img style={{width:"120%"}} src={Basic} alt=""/>
-                        </a>
+                        </Link>
                         {/* <h2>Python Practice Programs With Logic</h2> */}
                         {/* <p>Python Practice Programs With Logic &amp; Explanation In Hindi</p> */}
                         {/* <p><a href="/videos/python-practice-programs-in-hindi-1"> */}
@@ -140,9 +141,9 @@ const Courses = () => {
                         {/* </p> */}
                     </div>
                     <div className="col-md-6 col-lg-4 text-center car" >
-                    <a href="/shorttricks">
+                    <Link to={"/shorttricks"}>
                             <img style={{width:"120%"}} src={ST} alt=""/>
-                        </a>
+                        </Link>
                         {/* <h2>Python Practice Programs With Logic &amp;</h2> */}
                         {/* <p>Python Practice Programs With Logic &amp; Explanation In Hindi</p> */}
                         {/* <p><a href="/videos/python-practice-programs-in-hindi-1"> */}
@@ -154,9 +155,9 @@ const Courses = () => {
                         {/* </p> */}
                     </div>
                     <div className="col-md-6 col-lg-4 text-center car" >
-                    <a href="/aptitude">
+                    <Link to={"/aptitude"}>
                             <img style={{width:"120%"}} src={AT} alt=""/>
-                        </a>
+                        </Link>
                         {/* <h2>Python Practice Programs With Logic &amp;</h2> */}
                         {/* <p>Python Practice Programs With Logic &amp; Explanation In Hindi</p> */}
                         {/* <p><a href="/videos/python-practice-programs-in-hindi-1"> */}
