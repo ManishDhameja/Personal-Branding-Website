@@ -1,8 +1,6 @@
 nav{
     background: black;
-    /* margin-top: auto; */
-    position: fixed;
-    padding: 27px 0;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -24,26 +22,26 @@ nav{
     transform: rotate(360deg);
     transition: all 0.2s ease-in-out;
     position: relative;
-    left: 40px;
+    right: 20px;
+    top: 20px;
 }
 .imagess{
-    height: 73px;
-    width: 180px;
-    position: fixed;
-    top: 3px;
+    width: 170px;
 }
+
 
 .header-icon .fa-bars{
     transform: rotate(180deg);
     transition: all 0.2s ease-in-out;
     position: relative;
-    left: 40px;
+    right: 20px;
+    top: 20px;
 }
 
-.logo{
+/* .logo{
     font-weight: 600;
     font-size: 25px;
-}
+} */
 
 .logo font{
     color: tomato;
@@ -64,7 +62,7 @@ nav{
     color:#fff;
     font-weight: 300;
     padding: 5px 10px;
-    margin-left: 20px;
+    /* margin-left: 20px; */
 }
 
 .header-list li a:hover,
@@ -96,12 +94,8 @@ nav{
     transition: all 0.5s ease-in-out;
 }
 
-@media screen and (max-width: 980px) {
-    nav{
-        padding: 24px;
-        position: fixed;
-        width: 96%;
-    }
+@media screen and (max-width: 780px) {
+    
     .logo font{
         bottom: 16px;
         position: absolute;
@@ -116,14 +110,15 @@ nav{
         width: 100%;
         position: absolute;
         background-color:rgba(0,0,0,1);
-        padding: 20px;
+        /* padding: 20px; */
         right: 0;
-        top: 60px;
+        top: 65px;
         align-items: flex-start;
         transition: all 0.5s ease-in-out;
     }
 
     .header-list li{
+        padding-left: 0px !important;
         margin-bottom: 20px;
         width: 100%;
         text-align: center;
@@ -145,18 +140,14 @@ nav{
     }
 
     .imagess{
-        position: absolute;
-        left: 14px;
-        top: 1px;
-        width: 135px;
-        height: 65px;
+        width: 130px;
     }
 
 }
 
-/* @media screen and (max-width:680px) {
+@media screen and (max-width:480px) {
     nav{
-        width: 70%;
+        justify-content: space-between;
     }
 
-} */
+}

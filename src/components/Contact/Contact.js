@@ -76,7 +76,7 @@ const Contact = () => {
                                         .add({
                                             name: name,
                                             email: email,
-                                            phone:phone,
+                                            phone: phone,
                                             message: message,
                                         })
                                         .catch((error) => {
@@ -159,7 +159,7 @@ const Contact = () => {
                         <div className="contact-info">
                             <h3 className="title"><span ref={textRef}></span></h3>
                             <p className="text">
-                            Your feedback is important to us. We create content to learn with ease. Reach out  via message if you have any suggestions or queries.
+                                Your feedback is important to us. We create content to learn with ease. Reach out  via message if you have any suggestions or queries.
                             </p>
 
                             <div className="info">

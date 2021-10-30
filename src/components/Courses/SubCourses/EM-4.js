@@ -8,7 +8,7 @@ import Footer from '../../Footer/Footer'
 
 const EM4 = () => {
     return (
-        <div>
+        <div className="container">
             <div className="subcourse">
                 <Navbar />
             </div>

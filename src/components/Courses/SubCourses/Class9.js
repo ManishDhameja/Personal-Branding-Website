@@ -12,7 +12,7 @@ import Footer from '../../Footer/Footer'
 
 const className9 = () => {
     return (
-        <div>
+        <div className="container">
             <div className="subcourse">
                 <Navbar />
             </div>

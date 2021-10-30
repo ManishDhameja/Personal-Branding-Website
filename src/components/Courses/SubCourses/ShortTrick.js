@@ -10,7 +10,7 @@ import Footer from '../../Footer/Footer'
 
 const ShortTricks = () => {
     return (
-        <div>
+        <div className="container">
             <div className="subcourse">
                 <Navbar />
             </div>

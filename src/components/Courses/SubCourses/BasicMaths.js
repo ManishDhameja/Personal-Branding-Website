@@ -15,7 +15,7 @@ import Footer from '../../Footer/Footer'
 
 const BasicMaths = () => {
     return (
-        <div>
+        <div className="container">
             <div className="subcourse">
                 <Navbar />
             </div>
