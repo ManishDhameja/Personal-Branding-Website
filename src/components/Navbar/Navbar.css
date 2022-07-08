@@ -147,6 +147,7 @@ nav{
 
 @media screen and (max-width:480px) {
     nav{
+        position: fixed;
         justify-content: space-between;
     }
 

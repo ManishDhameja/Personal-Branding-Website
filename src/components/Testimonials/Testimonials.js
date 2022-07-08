@@ -13,6 +13,7 @@ import Aish from '../../assets/aish.jpg'
 import usa from '../../assets/usaa.jpeg'
 import Manish from '../../assets/Manish.jpg'
 import prag from '../../assets/prag.jpg'
+import neel from '../../assets/Neel.jpeg'
 import { Avatar } from "@material-ui/core";
 import { ArrowBackIos, ArrowForwardIos } from "@material-ui/icons";
 import AOS from 'aos';
@@ -56,6 +57,11 @@ const Testimonial = () => {
             description="Ayush Sir is a great help to me in many of the chapters that need clarification. He always assists me with the doubts .While in school when we learn something, we sometimes have doubts that need to be solved but we aren't able to get that help,  Ayush Sir gives one-on-one assistance and also gives a deep understanding of the topic using examples, tests, etc. All in all he is a great teacher. "
             name = "Akshara Govil"
             designation= " Rose Hill Middle School Redmond, Washington"/>
+            <Card 
+              img={neel}
+              description="Ayush Sir has been a big support for me .I have been learning countless methods and tricks to help me in tests and quizzes.  He teaches very kindly and is also very flexible. When he teaches it is never boring and you always stay engaged."
+              name = "Neel Pandya"
+              designation= " Lowery Freshman Center School Allen, Texas"/>
             <Card 
               img={Manish}
               description="He is a phenomenal teacher, and appears to care deeply about his students. He teaches with great clarity and turns a course that could be boring into an entertaining one. I didn't even fall asleep once while studying. His determination , passion &amp; dedication towards his work is very inspiring."

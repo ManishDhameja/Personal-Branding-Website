@@ -22,7 +22,12 @@ const Footer = () => {
                                 Ayush Ghurka
                                 2021
                             </p>
-                            Design credit: <a href="https://www.linkedin.com/in/manish-dhameja-1b6889157/" target="_blank" alt="" rel="noreferrer">Manish Dhameja</a>
+                            <div>
+                                Developed by: <a href="https://www.linkedin.com/in/manish-dhameja-1b6889157/" target="_blank" alt="" rel="noreferrer">Manish Dhameja</a>
+                            </div>
+                            <div>
+                                Designed by: <a href="https://www.linkedin.com/in/nandini-mehta-/" target="_blank" alt="" rel="noreferrer">Nandini Mehta</a>
+                            </div>
                         </div>
                         {/* <div class="col-xs-12 col-sm-4 col-md-4 footer-column">
                             <ul class="list-unstyled">

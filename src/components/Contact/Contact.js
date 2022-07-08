@@ -138,7 +138,7 @@ const Contact = () => {
             <div className='contact'>
                 <div className="heading-container">
                     <div className="screen-heading">
-                        <span> Contact us</span>
+                        <span> Contact Me</span>
                     </div>
                     <div className="screen-sub-heading">
                         <span> Let's Keep In Touch </span>
